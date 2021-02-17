@@ -18,7 +18,8 @@ chmod 755 update1613-CentOS7.sh
 ./update1613-CentOS7.sh
 
 **Config IP License**
-*If your interface is ensXXX change eth0 to ensXXX*
+
+*If your interface is **ensXXX** change **eth0** to **ensXXX***
 
 ifconfig eth0:100 176.99.3.34 netmask 255.255.255.0 up
 
