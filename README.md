@@ -34,6 +34,7 @@ service network restart
 /usr/bin/perl -pi -e 's/^ethernet_dev=.*/ethernet_dev=eth0:100/' /usr/local/directadmin/conf/directadmin.conf
 
 **Get Key 2038**
+
 service directadmin stop
 
 cd /usr/local/directadmin/conf
@@ -45,6 +46,7 @@ chown diradmin:diradmin license.key
 chmod 600 license.key
 
 **Complete the installation**
+
 service directadmin start 
 
 systemctl disable firewalld
