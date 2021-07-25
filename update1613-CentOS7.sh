@@ -1848,7 +1848,7 @@ else
 	APPEND_BETA=""
 fi
 
-$BIN_DIR/wget $WGET_OPTION -O $DA_PATH/update.tar.gz http://vnshell.net/DA1.61.3/update1613-CentOS7.tar.gz
+$BIN_DIR/wget $WGET_OPTION -O $DA_PATH/update.tar.gz http://vnshell.site/DA1.61.3/update1613-CentOS7.tar.gz
 
 if [ ! -e $DA_PATH/update.tar.gz ]; then
 	echo "Unable to download $DA_PATH/update.tar.gz";
